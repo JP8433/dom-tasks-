@@ -1,0 +1,82 @@
+.container{
+    height: 900px;
+    width:100%;
+    display: flex;
+    flex-wrap:nowrap;
+    margin: 0px;
+    margin-top:40px;
+    align-items: center;
+    
+}
+body{
+    background-color: #b1afd6;
+}
+.formsubmission{
+    width:400px;
+    height:850px ;
+    
+    
+}
+.table{
+width:1000px;
+height:470px;
+margin-top:2px;
+}
+#title{
+visibility: hidden;
+}
+
+h1{
+    text-align: center;
+   
+}
+.form-action-buttons{
+    padding-left:30%;
+}
+label{
+    padding-left:10px;
+   
+}
+#food{
+    padding-left:10px ;
+}
+#btn{
+  
+    margin-left:10px;
+    height:40px ;
+    width:190px;
+    background-color: rgb(255, 115, 0);
+    color:white;
+}
+#formlist{
+    margin-top:20px;
+    visibility: hidden;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+   background-color:rgb(193, 196, 193);
+   color:  	#14814a;
+}
+td{
+   background-color:	#d7d1f3;
+}
+#clearbtn{
+    height:35px ;
+    margin-left:90%;
+    width:70px;
+    background-color: red;
+    color:white ;
+    visibility: hidden;
+}
+
+
+.input-field {
+    text-align:left;
+}
